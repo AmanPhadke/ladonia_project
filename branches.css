@@ -1,0 +1,34 @@
+.branches-main-wrapper{
+    padding: 50px 150px;
+}
+
+.branch-image img{
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.branch{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    background-color: #005DDA;
+    color: #DEDEDE;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 1);
+    transition: transform 0.2s ease, box-shadow 0.3s ease, border 0.1s linear;
+}
+
+.branch:hover{
+    transform: scale(1.015);
+    transition: transform 0.2s ease, box-shadow 0.3s ease, border 0.1s linear;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.8);
+    border:5px solid #DEDEDE;
+}
+
+.branch-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
